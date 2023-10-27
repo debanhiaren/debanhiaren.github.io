@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>Mis amigos</title>
+<link href="../css/edicion_css_ .css" rel="stylesheet" type="text/css"/>
+ <link
+    href="../css/animate.min.css" 
+	rel="stylesheet" type="text/css"/>
+<style>
+	*{
+		margin: 0;
+		padding: 0;/*reinician valores de margin y paddin asignados por el navegador*/
+	}
+	header,nav,main,footer{
+		width: 960px;
+		padding: 30px;
+		margin: 0 auto;
+		}
+	header{
+	width: 960px;
+	heigth: 100px;
+	background-color: #330099;
+	color: #FFFFFF;
+	text-align: center;
+	}
+	nav{
+	height: 40px;
+	background-color: blue;
+	text-align: center;
+	}
+		nav a{
+		height: auto;
+		color: #FFF;
+		text-align: rightt;
+		margin: 30px;
+		}
+	nav a li{ 
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 10px;
+	}
+	navul li a{
+	font-size: 18px;
+	}
+	nav ul li a:link{
+	color: #FFCC00;
+	background-color: #000066;
+	padding: 20px;
+	}
+	a{
+	text-align: right;
+	text-decoration: none;
+	height: auto;
+	margin: 30;
+		}
+	main{
+	background-color: #FEF1E4;
+	}
+	main nav{
+	width: 600px;
+	height: auto;
+	text-align:center;
+	
+	}
+	main nav a:link{
+		color:#FFF;
+		font-weight: bold;
+		}
+		main nav a:visited{
+		color: #6F9;
+		font-weight:100;
+		}
+		main nav a:active{
+		color: #C3C;
+		font-weight: 500;
+		}
+		
+	main nav a:hover{
+		color: #FC3;
+		font-weight: 200;
+		}
+	footer{
+	height: 50px;
+	background-color: #9FC;
+	}
+	section {
+	width: 600px;
+	margin: 40px auto;
+	background-color: #CCF;
+	padding: 30px;
+	animation: alternate;
+	}
+	
+
+img{
+	width: auto;
+	height: 210px;
+	margin: 20px auto;
+}
+	table{
+	width: 60%;
+	border: 5px solid #990099;
+	border-collapse: collapse;
+	margin: 0 auto; 
+	font-size:14px;
+	font-family: "Bruna Regular";
+	animation-delay: 5s;
+	}
+	
+	th, td{
+	width: 200px;
+	border: 5px solid #CC99FF;
+	}
+	tr td img{
+	display:block;
+	margin: 0 auto;
+	}
+	#tabla_1 thbody tr: hover{
+	background-color: #06F;
+	color: #FFF;  
+	animation: infinite;
+	} 
+	#tabla_1 tbody tr:nth-child(odd){
+	background-color: #06F;
+	color: #FFF;
+	animation-delay: 5s;  
+	}
+	#tabla_especial tbody tr:nth-child(odd){
+	background-color: #06F;
+	color: #FFF;  
+	animation: normal;
+	}
+	#tabla_especial tbody tr:nth-child(even){
+	background-color:#F3F;
+	color: #FFFFFF;
+	animation: normal;  
+	}
+	#tabla_especial thead th{
+	background-color: #33FF99;
+	color: #FFFFFF;
+	animation-iteration-count:infinite;  
+	}
+	div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#tabla_especial thead th {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+
+ #tabla_infancia{
+  background-color: red;
+  color: #FFF;
+  }
+ 
+		h1{
+			font-size:36px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		padding-top: 30px;
+		padding-bottom:20px;
+		}
+		h2{
+			font-size:36px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		padding-top: 30px;
+		padding-bottom:20px;
+		}
+		h3{
+			font-size:36px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		padding-top: 30px;
+		padding-bottom:20px;
+		}
+		p{
+	font-family:"Bruna Regular";
+	width: auto;
+	padding: 20px;
+	margin:auto;
+	padding-top: 30px;
+	font-size: 12px;
+	padding-bottom: 20px;
+		}
+		
+		img{
+	width: auto;
+	height: 180px;
+	margin: 20px auto;
+	display: block;
+	}
+	</style>
+
+
+
+</head>
+
+<body>
+<header> 
+<h1>Amigos de la infancia</h1>
+</header>
+	<nav>
+	<a id="quiensoy"  href="../index.html">¿Quién soy?</a>
+	<a id="mifamily" href="../familia_s&aacute;nchez/mi_familia.html">Mi Familia</a>
+	<a id="#hobbies" href="mis_hobbies.html">Hobbies</a>
+	<a id="#misartistas" href="mis_artistas_favoritos.html">Mis artistas favoritos</a>
+	 <a id="#conociendote" href="conociendote.html.html">Conociendote</a>
+ 	</nav>
+<main>
+<section> 
+
+<h1 id="misamigos">Amigos de la infancia</h1>
+<p>	La siguiente tabla muestra a amigos que tuve en la infancia y que tengo un bonito recuerdo de cada uno:</p>
+ 
+ <table  class="table_infancia" width="151%" border="0" cellspacing="5">  
+  <thead>
+  <tr>
+ <th>foto</th>
+ <th>nombre</th>
+ <th>email</th>
+ <th>descripción</th>
+ </thead>
+<tbody> 
+   <td class="animate__backOutLeft"><img src="../media/imagenes/niña_rizos.jpg" alt="niña con rizos suetér rosa y peluche"></td>
+     <td>América</td>
+ <td>america@gmail.com</td>
+ <td>La conocí en el kinder.</td>
+ 
+ </tr>
+ 
+ <tr>
+ <td><img src="../media/imagenes/niña_peluche_de_tiburon.jpeg" alt="niña con peluche de tiburon en mano sentada en un sillon"></td>
+ <td>Natalia Ruíz</td>
+ <td>nataliaruiz@hotmail.com</td>
+ <td>Fue mi amiga en la primariaria.</td>
+ </tr>
+ 
+  <tr>
+ <td><img src="../media/imagenes/niña_doctor.jpeg" alt="niña con peluche de oso jugando"></td>
+ <td>Valeria</td>
+ <td>vale@hotmail.com</td>
+ <td>Fue mi amiga en la primariaria, cuan aún yo vivía en el Districto Federal.</td>
+ </tr>
+ <tr>
+ <td><img src="../media/imagenes/niña_osos de peluche.jpg" alt="niña con oso en mano sentada en una cama"> </td>
+	<td>Fernanda</td>
+	<td>fre05@hotmail.com</td>
+	<td>La conocí en la primaria cuando yo vivía en el Distrito Federal y junto con Valeria fuimos mejores amigas hasta que yo me mude a Puebla.</td>
+ </tr>
+ </tbody>
+ 
+ <tfoot>
+ </tfoot>
+ 
+ </table> 
+
+  
+</section>
+
+<section class="animate__flash">  
+
+<h3 id="universidad"> Amigos Universitarios</h3>
+<p>	La siguiente tabla muestra a amigos que tengo en la universidad y que se han convertido en personas que estimo mucho:</p>
+<table class="table_1" div="div" width="151%" border="0" cellspacing="5">
+
+
+  <tr>
+    <th width="248" scope="col">Foto</th>
+    <th width="208" scope="col">Nombre</th>
+    <th width="208" scope="col">Instagram</th>
+    <th width="198" scope="col">Diseñador favorito </th>
+  </tr>
+  </thead>
+  <tr>
+    <td><img src="../media/imagenes/amigos_uni.jpg" alt="foto de tre chicas y un chico" width="615" height="921" /></td>
+    <th>María Guadalupe</th>
+    <th>@lupita</th>
+    <th>Milton Glaser</th>
+  </tr>
+   <tr>
+    <td><img src="../media/imagenes/amigas_uni.jpg" alt="chico foto rembrandt" width="615" height="921" /></td>
+    <th>Erika González</th>
+    <th>@erika</th>
+    <th>Lauren Horn</th>
+  </tr>
+   <tr>
+    <td><img src="../media/imagenes/aldo_amigo.jpg" alt="chico foto rembrandt" width="615" height="921" /></td>
+    <th>Aldo Torres</th>
+    <th>@aldo</th>
+    <th>Will Bryant</th>
+  </tr>
+ 
+  
+  <tfoot></tfoot>
+</table>
+
+
+</section>
+
+<section class=""> 
+<article>
+<h2 id="bestfriend">Mejores amigos</h2>
+<p>	La siguiente tabla muestra a personas que siento como mejores amigos:</p>
+
+<table class="animate__animated animate__wobble" id="tabla_especial"  width="60%" border="0" cellspacing="5">
+
+  <tr>
+    <th scope="col">Foto;</th>
+    <th scope="col">Nombre;</th>
+    <th scope="col">Fecha de Cumpleaños;</th>
+    <th scope="col">Color favorito;</th>
+  </tr>
+  </thead>
+  
+  <tr>
+    <td><img src="../media/imagenes/mejor_amigo.jpg" alt="chico con playera azul con fondo cafe y mueble" width="615" height="921" /></td>
+    <td>Luis Antonio</td>
+    <td>04 de diciembre</td>
+    <td>Rojo</td>
+  </tr>
+  <tr>
+    <td><img src="../media/imagenes/moni_amiga.jpg" alt="foto de una chica y un fondo de arboles" width="615" height="921" /></td>
+    <td>María Mónica</td>
+    <td>12 de Octubre</td>
+    <td>Morado</td>
+  </tr>
+ <td><img src="../media/imagenes/amigos_uni.jpg" alt="foto de tres chicas y un chico" width="615" height="921" /></td>
+    <td>María Guadalupe</td>
+    <td>27 de marzo</td>
+    <td>Morado</td>
+  </tr>
+  
+  <tfoot>
+  </tfoot>
+</table>
+
+</article>
+</section>
+ 
+         <nav>
+        <a href="#misamigos">Amigos de la infancia</a>
+		<a href="#universidad">Amigos Universitarios</a>
+		<a href="#bestfriend">Mejores amigos</a>
+       
+       </nav>
+
+</body>
+</html>

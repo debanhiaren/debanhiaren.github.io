@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Conociendote</title>
+<link href="../Mis artistas favoritos/.../css/style_page_new.css" rel="stylesheet" type="text/css">
+<style> 
+	*{
+	margin: 0;
+	padding: 0;/*reinician valores de margin y paddin asignados por el navegador*/
+	}
+	header,nav,main,footer{
+		width: 960px;
+		padding: 30px;
+		margin: 0 auto;
+		}	
+	header{
+	width: 960px;
+	heigth: 100px;
+	background-color: #330099;
+	color: #FFFFFF;
+	text-align: center;
+	}
+	
+	nav{
+	height: 40px;
+	background-color: #6666FF;
+	text-align: center;
+	}
+	nav a{
+		height: auto;
+		color: #FFF;
+		text-align: rightt;
+		margin: 30px;
+		}
+	nav a li{ 
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 10px;
+	}
+	navul li a{
+	font-size: 18px;
+	}
+	nav ul li a:link{
+	color: #FFCC00;
+	background-color: #000066;
+	padding: 20px;
+	}
+	a{
+	text-align: left;
+	text-decoration: none;
+	font-size: 16px;
+		}
+	
+	main{
+	background-color: #FEF1E4;
+	}
+	main nav{
+	width: 600px;
+	height: auto;
+	text-align:center;
+	
+	}
+	main nav a:link{
+		color:#FFF;
+		font-weight: bold;
+		}
+		main nav a:visited{
+		color: #6F9;
+		font-weight:100;
+		}
+		main nav a:active{
+		color: #C3C;
+		font-weight: 500;
+		}
+		
+	main nav a:hover{
+		color: #FC3;
+		font-weight: 200;
+		}
+	footer{
+	width: auto;
+	height: 50px;
+	background-color: #9FC;s
+	}
+	section {
+	width: 600px auto;
+	margin: 40px auto;
+	background-color: #CCF;
+	padding: 30px;
+	}
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #CCFFCC;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: large;
+	color: #FFFFFF;
+}
+form{
+width: 50%;
+}
+input[type="text"]{
+width: 100%;
+margin: 10px 0px;
+
+}
+select{
+width: 100%;
+background-color: #99CCFF;
+color:#FFCC00;
+margin: 10px 0px;
+padding: 5px;
+}
+label{
+font-weight: bolder;
+}
+salto_linea{
+display: block;
+margin: 10px 0px;
+}
+input[type="submit"]{
+width: 30%;
+background-color:#CCFFCC;
+color:#FF9933;
+font-weight: bolder;
+margin: 10px auto;
+border: 3px solid #33CC99; 
+padding: 10px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<header>
+<h1>Conociendote&nbsp;</h1>
+</header>
+
+ 	  <nav>
+	  <ul>
+	 	<a id="#quiensoy" href="../index.html">¿Quién soy?</a>
+		<a id="mifamily" href="mi_familia.html">Mi Familia</a>
+        <a id="#hobbies" href="mis_hobbies.html">Hobbies</a>
+		<a id="#misartistas" href="mis_artistas_favoritos.html">Mis artistas favoritos</a>
+        <a id="#misamigos" href="mis_amigos.html">Mis amigos</a>
+       
+	 </ul> 	   
+	  </nav>
+	  
+ 	  
+    
+    <main>
+	<section>
+	 <p>Contenido 6 </p>
+	<form method="get" action="../index.html">
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" id="nombre">
+		
+		<label for="pais">Pais:</label>
+		<select id="pais" name="pais">
+			<option value="argentina">Argentina</option>
+			<option value="bolivia">Bolivia</option>
+			<option value="colombiaa">Colombia</option>
+			<option value="mexico">México</option>
+			<option value="peru">Peú</option>
+		</select>
+		
+		<label class="salto_linea" for="genero">Genero</label>
+		<input type="radio" id="masculino" name="masculino" value="masculino">
+		<label for="masculino">Masculino</label>
+		<input type="radio" id="femenino" name="genero" value="femenino">
+		<label for="femenino">Femenino</label>
+		
+		<label class="salto_linea" for="musica">¿Cuál es tu genero de música?</label>			
+		<label for="pop">Pop</label>
+		<input type="checkbox" id="pop" name="pop" value="pop">
+		<label for="rock">Rock</label>
+		<input type="checkbox" id="rock" name="rock" value="rock">
+		<label for="jazz&blues">Jaz & Blues</label>
+		<input type="checkbox" id="jazz&blues" name="jazz&blues" value="jazz&bluesk">
+        <label class="salto_linea" for="deportefavorito">Deporte favorito:</label>
+		<label for="futbol">Fútbol</label>
+		<input type="checkbox" id="futbol" name="futbol" value="futbol">
+		<label for="beisbol">Béisbol</label>
+		<input type="checkbox" id="beisbol" name="beisbol" value="beisbol">
+		<label for="karate">Karate</label>
+		<input type="checkbox" id="karate" name="karate" value="karate">
+        <label for="otro">Otro</label>
+		<input type="checkbox" id="otro" name="otro" value="otro">
+		
+		
+		<label for="ocupacion">Ocupación:</label>
+		<select id="ocupacion" name="ocupacion">
+			<option value="estudiante">Estudiante</option>
+			<option value="trabajador">Trabajador</option>
+			<option value="notrabaja">No trabaja</option>
+			<option value="otro">Otro</option>
+		</select>
+		
+		<label for="edad">Edad:</label>
+		<select id="edad" name="edad">
+			<option value="18-22">18-22</option>
+			<option value="22-25">22-25</option>
+			<option value="25-30">25-30</option>
+			<option value="30omas">30 o más</option>
+		</select>
+		
+		<label for="pasatiempo">Pasatiempo:</label>
+		<input type="text" name="pasatiempo" id="pasatiempo">
+        
+        <label for="cancionfavorita">Canción favorita:</label>
+		<input type="text" name="cancionfavorita" id="cancionfavorita">
+		
+		<label for="mascota">¿Tienes mascota?:</label>
+		<select id="mascota" name="mascota">
+			<option value="si">Si</option>
+			<option value="no">No</option>
+		
+		
+		
+		<input class="salto_linea" type="submit" value="Enviar">
+	</form>
+	  </section>
+	
+	</main>
+    <footer>
+	<h6></h6>
+	</footer>
+   
+</body>
+</html>

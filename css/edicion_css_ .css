@@ -1,0 +1,23 @@
+/*CSS Document*/
+
+header,nav,maon, footer {
+width: 900px
+}
+header{
+background-color:#66FFCC;
+}
+nav {
+background-color: #99FFFF;
+}
+main {
+background-color: #FFCCFF;
+}
+footer {
+background-color:#FF99FF;
+}
+.edicion_css {
+	list-style-position: outside;
+	list-style-image: none;
+	list-style-type: upper-roman;
+	padding: 0;
+}
